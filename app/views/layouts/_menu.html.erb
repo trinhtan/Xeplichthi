@@ -1,0 +1,16 @@
+<nav class="menu">
+  <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+  <label class="menu-open-button" for="menu-open">
+    <span class="lines line-1"></span>
+    <span class="lines line-2"></span>
+    <span class="lines line-3"></span>
+  </label>
+
+  <%= link_to "Học Phần", subject_index_path, class: "menu-item blue"%>
+  <a href="list_class" class="menu-item green">Lớp</a>
+  <a href="list_student" class="menu-item red">Sinh Viên</a>
+  <a href="list_room" class="menu-item purple"> <i class="fa fa-microphone"></i>Phòng</a>
+  <a href="list_date" class="menu-item orange"> <i class="fa fa-star"></i>Ngày</a>
+  <a href="logout" class="menu-item lightblue"> <i class="fa fa-diamond"></i>Logout</a>
+</nav>
+

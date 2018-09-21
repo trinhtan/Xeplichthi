@@ -1,8 +1,8 @@
 require 'test_helper'
 
-class AdminControllerTest < ActionDispatch::IntegrationTest
+class SubjectControllerTest < ActionDispatch::IntegrationTest
   test "should get new" do
-    get admin_new_url
+    get subject_new_url
     assert_response :success
   end
 
